@@ -18,6 +18,6 @@ route('/admincp/cmsticky', function(){
         cache()->set('cm_sticky_info', view('@CM_Sticky/info.html', ['sCMContent' => $sCMContent]));
     }
 
-    echo cache()->get('cm_sticky_info', 60 * 60 * 24);
+    echo cache()->get('cm_sticky_info', 60 * 24);
     return 'controller';
 });

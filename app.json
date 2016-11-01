@@ -1,0 +1,24 @@
+{
+  "id": "CM_Sticky",
+  "alias": "CM Sticky",
+  "name": "CM Sticky",
+  "version": "1.0.0",
+  "icon": "",
+  "vendor": "<a href=\"//codemake.org\" target=\"_blank\">CodeMake.Org</a> - See all our products <a href=\"//store.phpfox.com/techie/u/ecodemaster\" target=_new>HERE</a> - contact us at: support@codemake.org",
+  "admincp_route": "/admincp/cmsticky",
+  "settings": {
+    "cm_sticky_enabled": {
+      "info": "CM Sticky App Enabled",
+      "type": "input:radio",
+      "value": 1
+    },
+    "cm_sticky_selector": {
+      "info": "Sticky selector",
+      "value": "#left, #right"
+    },
+    "cm_offset_top": {
+      "info": "Offset top",
+      "value": 15
+    }
+  }
+}

@@ -1,0 +1,170 @@
+.cm-sticky-info-content {
+    width: 100%;
+}
+
+.cm-sticky-info-content .product_header {
+    height: 88px;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 10px;
+    border-bottom: 1px #dfdfdf solid;
+    position: relative;
+
+}
+
+.cm-sticky-info-content .product_icon {
+    left: 10px;
+    top: 10px;
+    position: absolute;
+    height: 50px !important;
+    width: 50px !important;
+    background-size: contain;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.cm-sticky-info-content .image_load {
+    display: block;
+}
+
+.cm-sticky-info-content .product_header h1 {
+    font-weight: 300;
+    font-size: 1.8em;
+    letter-spacing: 1px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 200px;
+}
+
+.cm-sticky-info-content .product_header h1,
+.cm-sticky-info-content .product_header h3 {
+    margin-left: 60px;
+    border-bottom: none;
+}
+
+.cm-sticky-info-content .product_holder {
+    background: #ffffff;
+    padding: 10px;
+    min-height: 0px;
+}
+
+.cm-sticky-info-content .block.product-block-reviews {
+    background: #f2f2f2 !important;
+    padding-top: 20px;
+}
+
+.cm-sticky-info-content .block.product-block-reviews .title {
+    text-transform: none;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 200;
+    color: #808080;
+    letter-spacing: 1px;
+    border-bottom: 1px #dfdfdf solid;
+    padding: 10px;
+}
+
+.cm-sticky-info-content .block_content {
+    padding: 10px;
+    font-size: 0.9em;
+    color: #808080;
+}
+
+.cm-sticky-info-content .al_products_holder {
+    padding: 0px;
+    text-align: center;
+}
+
+.cm-sticky-info-content .store, .store:hover {
+    border: 1px #eeeeee solid;
+    margin-right: 10px;
+    width: 172px;
+}
+
+.cm-sticky-info-content .store {
+    width: 180px;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    background: #fff;
+    border: 3px #f2f2f2 solid;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0px 20px 20px 0px;
+    position: relative;
+    transition: all 0.50s ease;
+}
+
+.cm-sticky-info-content .store h1 {
+    font-size: 0.9em;
+}
+
+.cm-sticky-info-content .store h1 a, .store:hover h1 a, .store h1 a:hover, .store:hover h1 a:hover {
+    color: #575757;
+    font-weight: 600;
+    letter-spacing: 0;
+    font-size: 15px;
+    width: 100%;
+}
+
+.cm-sticky-info-content .store h1 a, .store h1 a:hover {
+    display: block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 220px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    text-align: left;
+    text-indent: 10px;
+    line-height: 360px;
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.cm-sticky-info-content .store h2 {
+    bottom: 30px;
+    letter-spacing: normal;
+    text-transform: none;
+    font-size: 12px !important;
+    border-bottom: none !important;
+}
+
+.cm-sticky-info-content .store h2 {
+    position: absolute;
+    color: #999999;
+}
+
+.cm-sticky-info-content .product_banner {
+    border: 1px #dfdfdf solid;
+    width: 150px;
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    background-size: cover;
+
+    height: 150px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+}
+
+.cm-sticky-info-content .store .price,
+.cm-sticky-info-content .store:hover .price {
+    color: #59b757;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.cm-sticky-info-content .store .price {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-size: 0.9em;
+}

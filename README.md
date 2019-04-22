@@ -1,3 +1,7 @@
+<h2>Paid Support:</h2>       
+<p>The phpfox apps and themes by codemake are provided under the MIT license with no commercial support or liability. 
+<a href="mailto:phpfox@lifeinlife.xyz">phpfox@lifeinlife.xyz</a> also provides commercial support and professional customisation services.</p>
+
 <h1>PHPFox Sticky:</h1>
 <p>Tired to move up when you're at the bottom of the page to click on the link in the blocks? We have made a solution how to correct it! Sticky app provides an easy way to attach elements to the page when the user scrolls such that the element(block) is always visible.   </p>
 
